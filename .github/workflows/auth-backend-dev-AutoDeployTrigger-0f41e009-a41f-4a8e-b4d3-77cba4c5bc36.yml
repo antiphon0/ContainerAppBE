@@ -41,6 +41,7 @@ jobs:
           containerAppName: auth-backend-dev
           resourceGroup: ContainerAppAuth
           imageToBuild: antiphon0/auth-backend-dev:${{ github.sha }}
+          dockerfilePath: ./Dockerfile
           _buildArgumentsKey_: |
             _buildArgumentsValues_
 
