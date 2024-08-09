@@ -2,7 +2,6 @@ from fastapi import FastAPI, Request, HTTPException
 
 app = FastAPI()
 
-
 @app.get("/api/data")
 async def read_data(request: Request):
     # Azure injects the user's token into the request headers
