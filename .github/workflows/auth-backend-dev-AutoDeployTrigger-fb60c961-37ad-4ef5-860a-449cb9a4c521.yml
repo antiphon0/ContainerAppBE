@@ -41,7 +41,6 @@ jobs:
           containerAppName: auth-backend-dev
           resourceGroup: ContainerAppAuth
           imageToBuild: antiphon0/auth-backend-dev:${{ github.sha }}
-          startupCommand: "gunicorn -w 4 -k uvicorn.workers.UvicornWorker main:app --bind 0.0.0.0:80"
           _buildArgumentsKey_: |
             _buildArgumentsValues_
 
