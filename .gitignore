@@ -71,7 +71,6 @@ venv.bak/
 *.stackdump
 docker-compose.yml
 .dockerignore
-Dockerfile
 
 # Logs and databases
 *.log
